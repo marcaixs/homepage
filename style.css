@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+}
+
+/*---Header---*/
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+    background-color: blue;
+}
+
+.portrait-img{
+    width: 15vw;
+}
+
+.about{
+    width: 25vw;
+    height: fit-content;
+    border: solid 1px;
+    padding: 10px;
+    background-color: white;
+}
+
+.icons{
+    display: flex;
+    justify-content: end;
+}
+
+/*---Section---*/
+
+/*---Footer---*/
