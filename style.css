@@ -59,21 +59,26 @@ section{
 .projects{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-   
   gap: 2vw;
+  padding-bottom: 3vw;
 }
 
 .project{
     width: 20vw;
-    border: solid 1px;
+    padding: 1vw 1vw 4vw 1vw;
+    box-shadow: 5px 4px 5px 0px rgba(105,105,105,0.75);
 }
 
 .project-img{
     width: 100%
 }
 
-.project-icons{
+.project-name{
     display: flex;
+    justify-content: space-between;
+}
+.project-icons{
+
 }
 /*---Footer---*/
 footer{
